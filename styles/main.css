@@ -17,6 +17,9 @@ html, body {
 .header_container {
   width: 900px;
   margin: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-between;
   align-items: center; }
@@ -27,6 +30,9 @@ html, body {
     margin-right: 10px;
     margin-left: -10px; }
   .header_container .header_google_container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     flex-direction: column; }
     .header_container .header_google_container .header_google_logo {
@@ -88,6 +94,9 @@ html, body {
       font-weight: lighter;
       margin-right: 25px; }
     .banner_main_container .banner_body div .banner_list_container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -104,17 +113,20 @@ html, body {
         font-size: 12px;
         font-weight: lighter; }
     .banner_main_container .banner_body .banner_second_container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
       display: flex;
       flex-direction: column;
       margin-right: 18px; }
       .banner_main_container .banner_body .banner_second_container .banner_right_body {
-        border-bottom: 1px solid #212121;
+        border-bottom: 1px solid #6c7275;
         padding-bottom: 3px;
         height: 110px; }
         .banner_main_container .banner_body .banner_second_container .banner_right_body img {
           height: 52px;
           margin-top: 5px;
-          border-bottom: 1px solid #212121;
+          border-bottom: 1px solid #6c7275;
           padding-bottom: 3px; }
         .banner_main_container .banner_body .banner_second_container .banner_right_body div {
           display: flex;
@@ -162,6 +174,9 @@ html, body {
           margin-bottom: 8px; }
 
 .mini_top_body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -196,7 +211,7 @@ html, body {
   width: 900px;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #a8a8a8;
+  border-bottom: 1px solid #b0b0b0;
   padding-bottom: 30px;
   margin-bottom: 30px; }
   .mini_bottom_section div {
@@ -260,6 +275,9 @@ html, body {
       font-size: 13px;
       line-height: 140%; }
   .column_layout .right_column_sub_cont {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
     display: flex;
     justify-content: center;
     align-items: center;
